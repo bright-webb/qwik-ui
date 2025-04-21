@@ -1,4 +1,4 @@
-# 📦 Alert Component
+# Alert Component
 
 A fully customizable alert component for React Native, supporting multiple variants, severities, animation, auto-dismissal, icons, actions, accessibility, and flexible styling options.
 
@@ -72,12 +72,6 @@ import { Alert, DismissibleAlert } from './Alert';
 |-----------------------|-----------|---------|-------------|
 | `autoDismiss`         | `boolean` | `false` | Dismisses the alert automatically after duration |
 | `autoDismissDuration` | `number`  | `6000`  | Duration in ms before dismissal |
-
----
-
-## 🎨 Theming Integration
-- Uses `useTheme()` to adapt to light/dark mode and custom palettes
-- Applies color, typography, and spacing based on design system
 
 ---
 
